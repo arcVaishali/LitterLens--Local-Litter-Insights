@@ -5,4 +5,4 @@ st.set_page_config(
     page_icon="🔍",
 )
 
-st.title("Upload Litter Data and Read Litter Data") 
+st.title(":blue[Upload] Litter Data and Read Litter Data") 
