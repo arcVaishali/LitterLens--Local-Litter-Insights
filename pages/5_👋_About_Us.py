@@ -25,10 +25,10 @@ components.html(
             Eat, Code, Repeat.</p>
 
           <div class="flex flex-row gap-14 my-4">
-            <a class="h-14 w-14" href="https://www.linkedin.com/in/vaishali-p-97326221b/">
+            <a class="h-14 w-14" target="_blank" href="https://www.linkedin.com/in/vaishali-p-97326221b/">
               <img src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/linkedIn.png?token=GHSAT0AAAAAAB66LMHIQHEW3YEL5PLHP2EGZGXXJ2Q" alt="">
             </a>
-            <a class="h-14 w-14" href="https://github.com/arcVaishali/">
+            <a class="h-14 w-14" target="_blank" href="https://github.com/arcVaishali/">
               <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/github.png?token=GHSAT0AAAAAAB66LMHI4CHTGE4N5PFYAAV2ZGXXKVQ" alt="">
             </a>
           </div>
@@ -46,10 +46,10 @@ components.html(
             learning new concepts and networking.</p>
 
             <div class="flex flex-row gap-14 my-4">
-            <a class="h-14 w-14" href="https://www.linkedin.com/in/kesav-nagendra-0185021b9/">
+            <a class="h-14 w-14" target="_blank" href="https://www.linkedin.com/in/kesav-nagendra-0185021b9/">
               <img src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/linkedIn.png?token=GHSAT0AAAAAAB66LMHIQHEW3YEL5PLHP2EGZGXXJ2Q" alt="">
             </a>
-            <a class="h-14 w-14" href="https://github.com/kesavn-13/">
+            <a class="h-14 w-14" target="_blank" href="https://github.com/kesavn-13/">
               <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/github.png?token=GHSAT0AAAAAAB66LMHI4CHTGE4N5PFYAAV2ZGXXKVQ" alt="">
             </a>
           </div>
@@ -63,10 +63,10 @@ components.html(
           <p class="text-2xl text-black dark:text-white">I am a high school student who loves web development. I enjoy creating beautiful and functional websites using HTML, CSS, JavaScript, Vue, and other front-end technologies. I am also eager to learn more about backend development </p>
 
           <div class="flex flex-row gap-14 my-4">
-            <a class="h-14 w-14" href="https://www.linkedin.com/in/maruthikarthiksingh/">
+            <a class="h-14 w-14" target="_blank" href="https://www.linkedin.com/in/maruthikarthiksingh/">
               <img src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/linkedIn.png?token=GHSAT0AAAAAAB66LMHIQHEW3YEL5PLHP2EGZGXXJ2Q" alt="">
             </a>
-            <a class="h-14 w-14" href="https://github.com/MaruthiSingh/">
+            <a class="h-14 w-14" target="_blank" href="https://github.com/MaruthiSingh/">
               <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/github.png?token=GHSAT0AAAAAAB66LMHI4CHTGE4N5PFYAAV2ZGXXKVQ" alt="">
             </a>
           </div>
@@ -84,10 +84,10 @@ components.html(
             art of code and creative problem-solving.</p>
 
           <div class="flex flex-row gap-14 my-4">
-            <a class="h-14 w-14" href="https://www.linkedin.com/in/dileep-ka/">
+            <a class="h-14 w-14" target="_blank" href="https://www.linkedin.com/in/dileep-ka/">
               <img src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/linkedIn.png?token=GHSAT0AAAAAAB66LMHIQHEW3YEL5PLHP2EGZGXXJ2Q" alt="">
             </a>
-            <a class="h-14 w-14" href="https://github.com/Dileep2608">
+            <a class="h-14 w-14" target="_blank" href="https://github.com/Dileep2608">
               <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/github.png?token=GHSAT0AAAAAAB66LMHI4CHTGE4N5PFYAAV2ZGXXKVQ" alt="">
             </a>
           </div>  
