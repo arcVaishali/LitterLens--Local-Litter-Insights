@@ -2,30 +2,10 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Home",
-    page_icon="🏠",
+    page_icon=":house:",
 )
 
 st.title("A step towards Litter free World") 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
