@@ -2,8 +2,18 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-def submit():
+def predict():
     pass
+
+def submit():
+    # litterType = predict()
+    litterType = "plastic straw" 
+    fd = pd.read_csv("https://docs.google.com/spreadsheets/d/1Y4hpSyCz2s4xM1wzV7gRUjA_uVrbeoDML6_odknJxOc/edit#gid=0")
+    litterCount = litterCount + 1 
+    df = pd.DataFrame( [ litterType , litterCount ] ) 
+
+
+
 
 st.set_page_config(
     page_title="Upload and Read",
