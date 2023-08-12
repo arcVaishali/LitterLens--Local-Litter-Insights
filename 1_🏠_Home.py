@@ -12,7 +12,7 @@ st.divider()
 
 
 # =======ABOUT=======
-st.markdown("#### About us")
+st.header("About us")
 
 st.markdown("Our project :green[Litter Insight and Segregation], as the name suggests aims to provide a **local litter dataset** to local administration and policy makers of Resident Welfare Societies and Colonies, based on which they can make policies to :green[make reasonable and achievable local changes in lifestyle of residents]. We believe waste collection and management systems should be decentralised, as it is then the waste management becomes sustainable, reduces carbon footprint for transportation and gives local authorities more control.")
 
@@ -24,7 +24,7 @@ st.markdown("In addition to contributing in creating a dataset and making analys
 
 
 # =========FEATURES========
-st.markdown("#### Features")
+st.header("Features")
 st.markdown("- Provides portal for Litter Image Uploading and Analysis")
 st.markdown("- It aims at providing relevant results")
 st.markdown("- Helps segregating wastes less riskier")
@@ -33,9 +33,9 @@ st.markdown("- Helps segregating wastes less riskier")
 
 
 # =========INSPIRATION========
-st.markdown("#### Inspiration")
+st.header("Inspiration")
 
-st.markdown("##### Case Study - 1 ")
+st.subheader("Case Study - 1 ")
 
 st.markdown("We saw the success story of [KabadiWallah Connect](https://www.kabadiwallaconnect.in/), a Chennai based startup, it provided an IoT based point of pickup i.e. an IoT based dustbin which monitored waste collection and notified nearby Kabadiwallahs when it required disposal. Enabling such a system organised the Recyclable Waste Collection in India which is an informal sector which lags structure and also reduced risks that Kabadiwallahs (level-0 waste picker are called so in India) used to take in their daily life to find and segregate waste, thereby improving their livelihoods.")
 
@@ -44,7 +44,7 @@ st.markdown(
 
 st.divider()
 
-st.markdown("###### Our Remarks")
+st.header("Our Remarks")
 
 st.markdown(">What if we could reduce the risks even more that the Kabadiwallahs take to segregating waste by diving knee deep into the waste?")
 
@@ -52,14 +52,14 @@ st.markdown(">Why not create an ML model that can segregate waste into as recycl
 
 st.divider()
 
-st.markdown("##### Case Study - 2 ")
+st.subheader("Case Study - 2 ")
 
 st.markdown("[Litterati](https://www.litterati.org/) is a Litter data collection and analysis app based in US. This app has been used by various lawmakers and school administrations in US to get insights on what type of waste are being mostly generated in their city and school campus respectively and how they can reduce it.")
 
 st.markdown(
     "**Report by Science Learn Hub** [Citizen Science Project-Litterati](https://www.sciencelearn.org.nz/resources/2752-litterati)")
 
-st.markdown("###### Our Remarks")
+st.header("Our Remarks")
 
 st.markdown(
     ">As claimed earlier, waste management systems must be decentralised and locale specific.")
@@ -71,7 +71,7 @@ st.divider()
 
 
 # ========OUTCOME==========
-st.markdown("#### Outcome")
+st.header("Outcome")
 st.markdown("Our project aims at helping people make data informed life choices that are sustainable and also simplifies life of level 0 waste pickers")
 
 
