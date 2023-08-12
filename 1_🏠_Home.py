@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Home",
-    page_icon="🏠",
+    page_icon=":house:",
 )
 
 st.title("Litter Insight and Segregation ")
@@ -18,26 +18,8 @@ st.divider()
 st.markdown("##### Case Study - 2 ")
 st.markdown("[Literati]() is a Litter data collection and analysis app based in US. This app has been used by various lawmakers and school administrations in US to get insights on what type of waste are being mostly generated in their city and school campus respectively and how they can reduce it.")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+st.title("A step towards :green[Litter free World]")
+st.markdown("# What we aim for?")
 
 
 
