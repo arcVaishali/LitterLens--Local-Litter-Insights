@@ -14,6 +14,9 @@ with st.sidebar:
 if selected_sidebar == "Home page":
     st.title("Litter free World")
 elif selected_sidebar == "Upload Litter":
-    st.title("Upload litter")
-elif selected_sidebar == "Retain Litter Info":
-    st.title("Retain Litter Info")
+    st.title("Upload litter data and Read Litter Data")
+elif selected_sidebar == "Waste Segregation Model":
+    st.title("Upload image of Litter our model will predict its ->>")
+    st.markdown("- Name ")
+    st.markdown("- Type ")
+    st.markdown("- other data ") 
