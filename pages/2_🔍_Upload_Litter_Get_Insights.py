@@ -1,4 +1,6 @@
 import streamlit as st 
+import pandas as pd
+import numpy as np
 
 def submit():
     pass
@@ -33,6 +35,13 @@ def photo():
         st.button("Submit", on_click=submit(), disabled=key, use_container_width=True)
 
 photo()
+
+data = pd.DataFrame(
+    np.random.randn(20),
+    columns=["Litter rate"]
+)
+st.subheader("Bar graph: ")
+st.bar_chart(data=data, x=None, y=None, width=0, height=0, use_container_width=True)
 
 
 
