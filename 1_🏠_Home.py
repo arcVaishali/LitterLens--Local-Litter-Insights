@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon=":house:",
 )
 
-st.title("Litter Insight and Segregation ")
+st.title("Litter Insight and Segregation- A step towards :green[Litter free World]")
 st.divider()
 st.markdown("#### About us")
 st.markdown("#### Inspiration")
@@ -18,8 +18,6 @@ st.divider()
 st.markdown("##### Case Study - 2 ")
 st.markdown("[Literati]() is a Litter data collection and analysis app based in US. This app has been used by various lawmakers and school administrations in US to get insights on what type of waste are being mostly generated in their city and school campus respectively and how they can reduce it.")
 
-st.title("A step towards :green[Litter free World]")
-st.markdown("# What we aim for?")
 
 
 
