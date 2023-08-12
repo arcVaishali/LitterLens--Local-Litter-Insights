@@ -5,7 +5,8 @@ st.set_page_config(
     page_icon="🏠",
 )
 
-st.title("A step towards Litter free World") 
+st.title("A step towards Litter free World")
+st.markdown("# What we aim for?")
 
 
 
