@@ -87,6 +87,7 @@ def suggestions():
 
   if max(num) == num[0]:
     st.warning("Cardboard waste is more in {}".format(city))
+    st.warning(cardboard)
   elif max(num) == num[1]:
     st.warning("Glass waste is more in {}".format(city))
   elif max(num) == num[2]:
