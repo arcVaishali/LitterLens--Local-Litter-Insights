@@ -41,5 +41,5 @@ components.html(
         });
     </script>       
     """,
-    height=744,
+    height=764,
 )
