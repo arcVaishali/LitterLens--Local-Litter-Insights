@@ -99,16 +99,20 @@ components.html(
       <h1 class="text-6xl font-bold underline underline-offset-8 mb-12 dark:text-white text-black decoration-neutral-500">Tech Stack</h1>
       <div class="rounded-lg flex flex-col flex-wrap gap-14 mx-36 items-center justify-center">
         <div class="flex flex-col items-center">
-          <div class="dark:bg-white bg-slate-300 rounded-lg py-3 px-6">
-            <img class=" h-12 w-14" src="https://avatars.githubusercontent.com/u/45109972?s=200&v=4" alt="">
-          </div>
-          <h1 class="text-2xl dark:text-white text-black text-center my-4"><a href="https://streamlit.io/" target="_blank">Streamlit</a></h1>
+          <a href="https://streamlit.io/" target="_blank">
+            <div class="dark:bg-white bg-slate-300 rounded-lg py-3 px-6">
+              <img class=" h-12 w-14" src="https://avatars.githubusercontent.com/u/45109972?s=200&v=4" alt="">
+            </div>
+            <h1 class="text-2xl dark:text-white text-black text-center my-4">Streamlit</h1>
+          </a>
         </div>
         <div class="flex flex-col items-center">
-          <div class="dark:bg-white bg-slate-300 rounded-lg py-3 px-6">  
-            <img class="bg-[#130654] h-12 w-18" src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="">
-          </div>
-          <h1 class="text-2xl dark:text-white text-black text-center my-4"><a href="https://pandas.pydata.org/" target="_blank">Pandas</a></h1>
+          <a href="https://pandas.pydata.org/" target="_blank">
+            <div class="dark:bg-white bg-slate-300 rounded-lg py-3 px-6">  
+              <img class="bg-[#130654] h-12 w-18" src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="">
+            </div>
+            <h1 class="text-2xl dark:text-white text-black text-center my-4">Pandas</h1>
+          </a>
         </div>
         <div class="flex flex-col items-center">
           <a href="https://www.tensorflow.org/" target="_blank">
