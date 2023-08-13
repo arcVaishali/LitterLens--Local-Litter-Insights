@@ -8,16 +8,11 @@ from utils import *
 import csv
 import pandas as pd
 import requests
-from streamlit_extras.app_logo import add_logo
-
 
 st.set_page_config(
      page_title="Upload and Read",
      page_icon="🔍",
 )
-
-add_logo("assests\logo.png", height=180)
-
 
 url = "https://sheetdb.io/api/v1/9j2teqwz3t3d9?sheet=login"
 response = requests.get(url)

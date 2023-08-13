@@ -1,13 +1,9 @@
 import streamlit as st
-from streamlit_extras.app_logo import add_logo
-
 
 st.set_page_config(
     page_title="Home",
     page_icon=":house:",
 )
-
-add_logo("assests\logo.png", height=180)
 
 st.title(
     "Litter Insight and Segregation- A step towards :green[Litter free World]")
