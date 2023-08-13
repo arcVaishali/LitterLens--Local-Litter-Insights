@@ -75,7 +75,7 @@ components.html(
           <img class="h-24 w-24 rounded-full mb-4"
             src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/Dileep.jpeg?token=GHSAT0AAAAAAB66LMHJXCR4CBPPOQIQ5VGCZGXWZGQ"
             alt="Dileep K">
-          <h1 class="text-3xl text-center dark:text-white text-black">Dileep K</h1>
+          <h1 class="text-3xl text-center dark:text-white text-black">Dileep K A</h1>
           <p class="text-xl mb-3 text-black dark:text-white">Web developer</p>
           <p class="text-2xl text-black dark:text-white">I am a B.Tech Electrical & Computer Engineering student at
             Amrita University, driven by an insatiable fascination for the realm of Computer Science and its revolutionary
