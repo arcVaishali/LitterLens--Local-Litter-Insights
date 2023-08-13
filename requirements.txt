@@ -1,6 +1,7 @@
 streamlit
-tensorflow
+tensorflow==2.8
 keras
+pandas
 numpy
 PIL
 urllib
