@@ -10,7 +10,6 @@ st.set_page_config(
     page_icon="🗑️",
 )
 
-st.title("Upload image of Litter our model will predict its- ")
 labels = gen_labels()
 
 html_temp = '''
