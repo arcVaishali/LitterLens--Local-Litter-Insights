@@ -119,10 +119,12 @@ components.html(
           <h1 class="text-2xl dark:text-white text-black text-center my-4"><a href="https://www.tensorflow.org/" target="_blank">Tensorflow</a></h1>
         </div>
         <div class="flex flex-col items-center">
-          <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
-            <img class="h-12 w-18" src="https://matplotlib.org/_static/logo_dark.svg" alt="">
-          </div>
-          <h1 class="text-2xl dark:text-white text-black text-center my-4"><a href="https://matplotlib.org/" target="_blank">Matplotlib</a></h1>
+          <a href="https://matplotlib.org/" target="_blank">
+            <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
+              <img class="h-12 w-18" src="https://matplotlib.org/_static/logo_dark.svg" alt="">
+            </div>
+            <h1 class="text-2xl dark:text-white text-black text-center my-4">Matplotlib</h1>
+          </a>
         </div>
         <div class="flex flex-col items-center">
           <a href="https://numpy.org/" target="_blank">
