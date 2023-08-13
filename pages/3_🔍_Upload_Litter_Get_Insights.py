@@ -5,6 +5,28 @@ import pandas as pd
 from PIL import Image
 import urllib.request
 from utils import *
+import csv
+import pandas as pd
+import matplotlib.pyplot as plt
+
+litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+
+def litter_count_update(litter):
+  litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+  count = []
+
+  with open("database/litter_count.csv", mode='r') as file:
+    litter_data = csv.reader(file)
+    for lines in litter_data:
+      count.append(lines[0])
+
+  litter_type_index = litter_type.index(litter)
+  count[litter_type_index] = str(int(count[litter_type_index])+1)
+
+  with open("database/litter_count.csv",'w', newline='') as file:
+    writer = csv.writer(file)
+    for i in count:
+      writer.writerow([i])
 
 st.set_page_config(
      page_title="Upload and Read",
@@ -62,7 +84,9 @@ try:
         model.load_weights("model.h5")
 
         prediction = model.predict(img[np.newaxis, ...])
-        st.info('Hey! The uploaded image has been classified as " {} waste " '.format(labels[np.argmax(prediction[0], axis=-1)]))     
+        litter = labels[np.argmax(prediction[0], axis=-1)]
+        st.info('Hey! The uploaded image has been classified as " {} waste " '.format(litter))   
+        litter_count_update(litter)
 except Exception as e:
   st.info("Our model will begin it's work once you feed it the input😁⬆️")
   pass
@@ -75,4 +99,24 @@ df = pd.DataFrame(dic)
 st.write(df)
 
 
+def graph():
+  count = []
+  with open("database/litter_count.csv", mode='r') as file:
+    litter_data = csv.reader(file)
+    for lines in litter_data:
+      count.append(lines[0])
+  data = {'Litter':litter_type, 'Litter count':[int(i) for i in count]}
+  df = pd.DataFrame(data)
+  st.subheader("Live trash count graph:")
+  st.bar_chart(df.set_index('Litter'))
+
+def suggestions():
+  pass
+def show_insights():
+  graph()
+  suggestions()
+x = st.button("Get Insights", use_container_width=True)
+
+if x:
+  show_insights()
 
