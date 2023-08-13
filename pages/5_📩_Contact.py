@@ -9,7 +9,7 @@ st.set_page_config(
 components.html(
     """
     <script src="https://cdn.tailwindcss.com"></script>
-    <h2 class="text-4xl dark:text-white text-black font-medium">Sign up for info</h2>
+    <h2 class="text-6xl dark:text-white text-black font-medium mb-5">Contact</h2>
     <form class="flex flex-col" method="post" id="sheetdb-form" action="https://sheetdb.io/api/v1/9j2teqwz3t3d9?sheet=contact">
         <div class="my-4">
             <h2 class="text-xl font-bold mb-2 dark:text-white text-black">Name</h2>
@@ -23,7 +23,7 @@ components.html(
             <h2 class="text-xl font-bold mb-2 dark:text-white text-black">Issue</h2>
             <textarea required class="w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[issue]" cols="30" rows="10"></textarea>
         </div>
-        <button class="text-xl font-bold text-black p-4 bg-lime-400 rounded-full w-fit" type="submit">Submit</button>
+        <button class="text-xl mb-4 font-bold text-black p-4 bg-lime-400 rounded-full w-fit" type="submit">Submit</button>
     </form>
     <script>
         var form = document.getElementById('sheetdb-form');
@@ -40,5 +40,5 @@ components.html(
         });
     </script>       
     """,
-    height=704,
+    height=744,
 )
