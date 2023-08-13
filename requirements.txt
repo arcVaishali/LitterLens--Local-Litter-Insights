@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+keras
+numpy
+# PIL
+# urllib
+
