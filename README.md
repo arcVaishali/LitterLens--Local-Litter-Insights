@@ -86,7 +86,10 @@ We built our project with love, patience and hardwork using following tools and 
 - We had trouble deploying the app on streamlit cloud.
 Through dedicated teamwork and hard work, we effectively resolved these challenges over time. Our collaboration was facilitated by Discord, ensuring continuous connectivity throughout the Hackathon. We extend our gratitude to Katie Youth Hacks for providing us with an invaluable opportunity to engage with a resourceful community. This experience enhanced our proficiency in streamlit, machine learning, and web development.
 
-## Accomplishments that we're proud of
+## Accomplishments that we're proud of  
+- We were successful in merging the ML model into our website. 
+- We were able to come up with a good idea which will have a good impact on our society and an actionable plan to implement it. 
+- We were able to successfully deploy and create our app on streamlit in the given time period of this hackathon. 
 
 ## What we learned
 
