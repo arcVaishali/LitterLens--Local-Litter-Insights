@@ -20,8 +20,8 @@ components.html(
           <h1 class="text-3xl text-center dark:text-white text-black">Vaishali</h1>
           <p class="text-xl mb-3 text-black dark:text-white">Front-end developer and UX/UI developer</p>
           <p class="text-2xl text-black dark:text-white">I am a B.Tech Computer Science 2nd year student at GL Bajaj,
-            Greater Noida contributing in open source, contributing as a front-end developer and UX/UI developer in
-            hackathons, Leetcoding and learning web development, DSA, Blockchain and Machine Learning. I learn by doing.
+            Greater Noida who loves to contribute in open source and as a Front-end and UX/UI Developer in
+            Hackathons. Moreover I spends hours Leetcoding and learning Web Development, DSA, Blockchain and Machine Learning. I learn by doing.
             Eat, Code, Repeat.</p>
 
           <div class="flex flex-row gap-14 my-4">
