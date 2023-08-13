@@ -100,7 +100,7 @@ components.html(
       <div class="rounded-lg flex flex-col flex-wrap gap-14 mx-36 items-center justify-center">
         <div class="flex flex-col items-center">
           <a href="https://streamlit.io/" target="_blank">
-            <div class="dark:bg-white bg-slate-300 rounded-lg py-3 px-6">
+            <div class="dark:bg-white bg-slate-400 rounded-lg py-3 px-6">
               <img class=" h-12 w-14" src="https://avatars.githubusercontent.com/u/45109972?s=200&v=4" alt="">
             </div>
             <h1 class="text-2xl dark:text-white text-black text-center my-4">Streamlit</h1>
@@ -108,7 +108,7 @@ components.html(
         </div>
         <div class="flex flex-col items-center">
           <a href="https://pandas.pydata.org/" target="_blank">
-            <div class="dark:bg-white bg-slate-300 rounded-lg py-3 px-6">  
+            <div class="dark:bg-white bg-slate-400 rounded-lg py-3 px-6">  
               <img class="bg-[#130654] h-12 w-18" src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="">
             </div>
             <h1 class="text-2xl dark:text-white text-black text-center my-4">Pandas</h1>
@@ -116,7 +116,7 @@ components.html(
         </div>
         <div class="flex flex-col items-center">
           <a href="https://www.tensorflow.org/" target="_blank">
-            <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
+            <div class="dark:bg-white bg-slate-400 rounded-lg p-2">
               <img class="h-12 w-18"
                 src="https://www.gstatic.com/devrel-devsite/prod/ve7ce216351f398481fccad3cbbc60c699e78bde8533bfe4daa150955665bb2bf/tensorflow/images/lockup.svg"
                 alt="">
@@ -126,7 +126,7 @@ components.html(
         </div>
         <div class="flex flex-col items-center">
           <a href="https://matplotlib.org/" target="_blank">
-            <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
+            <div class="dark:bg-white bg-slate-400 rounded-lg p-2">
               <img class="h-12 w-18" src="https://matplotlib.org/_static/logo_dark.svg" alt="">
             </div>
             <h1 class="text-2xl dark:text-white text-black text-center my-4">Matplotlib</h1>
@@ -134,21 +134,21 @@ components.html(
         </div>
         <div class="flex flex-col items-center">
           <a href="https://numpy.org/" target="_blank">
-            <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
+            <div class="dark:bg-white bg-slate-400 rounded-lg p-2">
               <img class="h-12 w-12" src="https://numpy.org/images/logo.svg" alt="">
             </div>
             <h1 class="text-2xl dark:text-white text-black text-center my-4">Numpy</h1>
           </a>
         </div>
         <div class="flex flex-col items-center">
-          <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
+          <div class="dark:bg-white bg-slate-400 rounded-lg p-2">
             <img class="h-20 w-20" src="https://static.javatpoint.com/images/javascript/javascript_logo.png" alt="">
           </div>
           <h1 class="text-2xl dark:text-white text-black text-center my-4">JavaScript</h1>
         </div>
         <div class="flex flex-col items-center">
           <a href="https://tailwindcss.com/" target="_blank">
-            <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
+            <div class="dark:bg-white bg-slate-400 rounded-lg p-2">
               <svg viewBox="0 0 248 31" class="dark:text-slate-900 text-white w-auto h-5">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M25.517 0C18.712 0 14.46 3.382 12.758 10.146c2.552-3.382 5.529-4.65 8.931-3.805 1.941.482 3.329 1.882 4.864 3.432 2.502 2.524 5.398 5.445 11.722 5.445 6.804 0 11.057-3.382 12.758-10.145-2.551 3.382-5.528 4.65-8.93 3.804-1.942-.482-3.33-1.882-4.865-3.431C34.736 2.92 31.841 0 25.517 0zM12.758 15.218C5.954 15.218 1.701 18.6 0 25.364c2.552-3.382 5.529-4.65 8.93-3.805 1.942.482 3.33 1.882 4.865 3.432 2.502 2.524 5.397 5.445 11.722 5.445 6.804 0 11.057-3.381 12.758-10.145-2.552 3.382-5.529 4.65-8.931 3.805-1.941-.483-3.329-1.883-4.864-3.432-2.502-2.524-5.398-5.446-11.722-5.446z"
@@ -163,7 +163,7 @@ components.html(
         </div>
         <div class="flex flex-col items-center">
           <a href="https://streamlit.io/" target="_blank">
-            <div class="dark:bg-white bg-slate-300 rounded-lg py-3 px-6"> 
+            <div class="dark:bg-white bg-slate-400 rounded-lg py-3 px-6"> 
               <img class="h-16 w-16 rounded-lg" src="https://avatars.githubusercontent.com/u/32489070?v=4" alt="">
             </div>
             <h1 class="text-2xl dark:text-white text-black text-center my-4">SheetDB</h1>
