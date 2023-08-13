@@ -24,7 +24,6 @@ components.html(
                 <option value="Bangalore">Bangalore</option>
                 <option value="Chennai">Chennai</option>
                 <option value="Hyderabad">Hyderabad</option>
-                <option value="Mumbai">Mumbai</option>
             </select>
         </div>
         <div class="my-4">
