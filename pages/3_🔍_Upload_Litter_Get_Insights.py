@@ -7,10 +7,32 @@ import urllib.request
 from utils import *
 import csv
 import pandas as pd
+import requests
+
+st.set_page_config(
+     page_title="Upload and Read",
+     page_icon="🔍",
+)
+
+url = "https://sheetdb.io/api/v1/9j2teqwz3t3d9?sheet=login"
+response = requests.get(url)
+
+if response.status_code == 200:
+    data = response.json()
+    city = data[-1]["location"]
+else:
+    print("Failed to retrieve data from database. Status code:", response.status_code)
+
+
+litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+recylable = ['paper', 'cardboard', 'metal', 'plastic', 'glass']
+biodegradable = ['trash']
+cities = ['Delhi', 'Bangalore', 'Chennai', 'Hyderabad', 'Mumbai']
+file_name = "database/{}.csv".format(city)
 
 def graph():
   count = []
-  with open("database/litter_count.csv", mode='r') as file:
+  with open(file_name, mode='r') as file:
     litter_data = csv.reader(file)
     for lines in litter_data:
       count.append(lines[0])
@@ -21,7 +43,7 @@ def graph():
 
 def suggestions():
   count = []
-  with open("database/litter_count.csv", mode='r') as file:
+  with open(file_name, mode='r') as file:
     litter_data = csv.reader(file)
     for lines in litter_data:
       count.append(lines[0])
@@ -47,18 +69,11 @@ def show_insights():
   graph()
   suggestions()
 
-
-
-
-litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
-recylable = ['paper', 'cardboard', 'metal', 'plastic', 'glass']
-biodegradable = ['trash']
-
 def litter_count_update(litter):
   litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
   count = []
 
-  with open("database/litter_count.csv", mode='r') as file:
+  with open(file_name, mode='r') as file:
     litter_data = csv.reader(file)
     for lines in litter_data:
       count.append(lines[0])
@@ -66,16 +81,11 @@ def litter_count_update(litter):
   litter_type_index = litter_type.index(litter)
   count[litter_type_index] = str(int(count[litter_type_index])+1)
 
-  with open("database/litter_count.csv",'w', newline='') as file:
+  with open(file_name,'w', newline='') as file:
     writer = csv.writer(file)
     for i in count:
       writer.writerow([i])
 
-
-st.set_page_config(
-     page_title="Upload and Read",
-     page_icon="🔍",
-)
 
 # sheet_id = '1Y4hpSyCz2s4xM1wzV7gRUjA_uVrbeoDML6_odknJxOc'
 # df = pd.read_csv(f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv")
@@ -139,7 +149,8 @@ except Exception as e:
   st.info("Our model will begin it's work once you feed it the input😁⬆️")
   pass
 
-x = st.button("Get Insights", use_container_width=True)
+button_text = "Get insights of {} litter distrubition".format(city)
+x = st.button(button_text, use_container_width=True)
 if x:
   show_insights()
 
