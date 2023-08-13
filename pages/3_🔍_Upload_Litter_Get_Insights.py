@@ -1,6 +1,9 @@
 import time
 import streamlit as st
 import numpy as np
+import pandas as pd
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 from PIL import Image
 import urllib.request
 from utils import *
@@ -9,6 +12,10 @@ st.set_page_config(
      page_title="Upload and Read",
      page_icon="🔍",
 )
+
+# sheet_id = '1Y4hpSyCz2s4xM1wzV7gRUjA_uVrbeoDML6_odknJxOc'
+# df = pd.read_csv(f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv")
+# print(df)
 
 labels = gen_labels()
 
@@ -57,12 +64,17 @@ try:
         model.load_weights("model.h5")
 
         prediction = model.predict(img[np.newaxis, ...])
-        st.info('Hey! The uploaded image has been classified as " {} waste " '.format(labels[np.argmax(prediction[0], axis=-1)]))
+        st.info('Hey! The uploaded image has been classified as " {} waste " '.format(labels[np.argmax(prediction[0], axis=-1)]))     
 except Exception as e:
   st.info("Our model will begin it's work once you feed it the input😁⬆️")
   pass
 
 
+
+st.markdown("### For Your Reference")
+dic = {"Recylable":["paper","cardboard","metal","plastic","glass"],"Biodegradable":["trash"," " , " " , " ", " "]}
+df = pd.DataFrame(dic)
+st.write(df)
 
 
 

@@ -28,7 +28,7 @@ components.html(
         </div>
         <div class="my-4">
           <label class="block text-xl dark:text-white text-black p-2 font-medium mb-4" for="location">
-            Loacation
+            Location
           </label>
           <input
             class="border border-gray-400 p-2 w-full rounded-lg"
