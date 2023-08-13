@@ -19,13 +19,19 @@ components.html(
         </div>
         <div class="my-4">
             <h2 class="text-xl font-bold mb-2 dark:text-white text-black">Location</h2>
-            <input required type="text" class="h-14 w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[location]">
+            <select name="data[location]" class="h-18 w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-5 rounded-lg">
+                <option value="Delhi">Delhi</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
         </div>
         <div class="my-4">
             <h2 class="text-xl font-bold mb-2 dark:text-white text-black">Locality</h2>
             <input required type="text" class="h-14 w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[locality]">
         </div>
-        <button class="text-xl mb-4 font-bold text-black p-4 bg-lime-400 rounded-full w-fit" type="submit">
+        <button class="text-xl mt-4 font-bold text-black p-4 bg-lime-400 rounded-full w-fit" type="submit">
           Submit
         </button>
       </form>
@@ -45,5 +51,5 @@ components.html(
         });
     </script>
     """,
-    height=480,
+    height=520,
 )
