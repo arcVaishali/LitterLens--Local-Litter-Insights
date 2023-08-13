@@ -91,6 +91,15 @@ Through dedicated teamwork and hard work, we effectively resolved these challeng
 - We were able to come up with a good idea which will have a good impact on our society and an actionable plan to implement it. 
 - We were able to successfully deploy and create our app on streamlit in the given time period of this hackathon. 
 
-## What we learned
+## What we learned 
+- Collaborating with people.
+- Using community forums and reading documentations in a proper way.
+- Acquired experience with working on streamlit. 
+- Acquired knowledge in machine learning.
 
-## What's next for LitterLens-Local Litter Insights
+## What's next for LitterLens-Local Litter Insights 
+- We look forward to using a more powerful database like firebase instead of SheetDB and Google Sheets. 
+- We anticipate incorporating this functionality into various localities to provide tailored litter distribution insights, analytics, and guidance on transitioning toward a more sustainable lifestyle.  
+- We will add this feature as well by which the user can view the waste management system of other areas and can get insights. 
+- Our objective is to further enhance the performance of our machine learning model.
+
