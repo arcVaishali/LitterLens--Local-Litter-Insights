@@ -5,6 +5,11 @@ from PIL import Image
 import urllib.request
 from utils import *
 
+st.set_page_config(
+     page_title="Upload and Read",
+     page_icon="🔍",
+)
+
 labels = gen_labels()
 
 html_temp = '''
@@ -56,38 +61,6 @@ try:
 except Exception as e:
   st.info(e)
   pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
