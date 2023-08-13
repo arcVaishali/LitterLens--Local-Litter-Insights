@@ -111,12 +111,14 @@ components.html(
           <h1 class="text-2xl dark:text-white text-black text-center my-4"><a href="https://pandas.pydata.org/" target="_blank">Pandas</a></h1>
         </div>
         <div class="flex flex-col items-center">
-          <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
-            <img class="h-12 w-18"
-              src="https://www.gstatic.com/devrel-devsite/prod/ve7ce216351f398481fccad3cbbc60c699e78bde8533bfe4daa150955665bb2bf/tensorflow/images/lockup.svg"
-              alt="">
-          </div>
-          <h1 class="text-2xl dark:text-white text-black text-center my-4"><a href="https://www.tensorflow.org/" target="_blank">Tensorflow</a></h1>
+          <a href="https://www.tensorflow.org/" target="_blank">
+            <div class="dark:bg-white bg-slate-300 rounded-lg p-2">
+              <img class="h-12 w-18"
+                src="https://www.gstatic.com/devrel-devsite/prod/ve7ce216351f398481fccad3cbbc60c699e78bde8533bfe4daa150955665bb2bf/tensorflow/images/lockup.svg"
+                alt="">
+            </div>
+            <h1 class="text-2xl dark:text-white text-black text-center my-4">Tensorflow</h1>
+          </a>
         </div>
         <div class="flex flex-col items-center">
           <a href="https://matplotlib.org/" target="_blank">
