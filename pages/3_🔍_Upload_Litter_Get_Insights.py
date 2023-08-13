@@ -23,6 +23,41 @@ if response.status_code == 200:
 else:
     print("Failed to retrieve data from database. Status code:", response.status_code)
 
+plastice = """Controlling plastic waste is a critical environmental challenge. There are several measures that can be taken to address and control plastic waste:
+
+1. REDUCE SINGLE-USE PLASTICS: Encourage the use of reusable alternatives and phase out or ban certain single-use plastic items like bags, straws, cutlery, and packaging.
+
+2. PROMATE RECYCLING: Implement effective recycling programs and raise awareness about proper sorting and disposal of plastics. Improve infrastructure to ensure that collected plastic waste is actually recycled.
+
+3. EXTENDED PRODUCER RESPONSIBILITY (EPR): Hold manufacturers responsible for the entire lifecycle of their products, including plastic waste management and disposal. This encourages them to design products with recycling and end-of-life considerations in mind.
+
+4. PLASTIC-FREE PACKAGING: Encourage businesses to adopt plastic-free packaging alternatives or use materials that are more easily recyclable or biodegradable.
+
+5. INNOVATIVE MATERIALS: Support research and development of alternative materials to plastic, such as bioplastics, which are made from renewable resources and are more environmentally friendly."""
+
+cardboard = """Controlling cardboard waste involves implementing effective strategies to reduce, reuse, and recycle cardboard materials. Here are measures you can take to control cardboard waste:
+
+1. SOURCE REDUCTION:
+Encourage businesses to minimize packaging and use appropriate box sizes to reduce excess cardboard waste.
+Implement a "just-in-time" inventory system to prevent overordering and excess packaging.
+
+2. REUSE AND REPURPOSE:
+Promote the reuse of cardboard boxes for storage, shipping, or moving purposes.
+Establish a community-based cardboard box exchange program for sharing boxes.
+
+3. RECYCLING PROGRMAS:
+Set up convenient and accessible cardboard recycling collection points in residential areas and commercial spaces.
+Educate residents and businesses about proper cardboard recycling procedures and the importance of flattening boxes before recycling.
+
+4. COMMERCIAL AND INDUSTRIAL PRACTICES:
+Encourage businesses to partner with recycling companies to ensure their cardboard waste is properly managed and recycled.
+Implement cardboard waste audits to identify areas for reduction and better recycling practices.
+
+5. PRODUCT DESIGN AND PACKAGING GAUIDELINES:
+Work with manufacturers to design products with more eco-friendly packaging that uses less cardboard or easily recyclable materials. """
+
+# glass = """ Controlling glass waste involves implementing strategies to reduce, reuse, and recycle glass materials. Here are measures you can take to control glass waste:"""
+# st.warning(glass)
 
 litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 recylable = ['paper', 'cardboard', 'metal', 'plastic', 'glass']
@@ -51,19 +86,17 @@ def suggestions():
   num = [int(i) for i in count]
 
   if max(num) == num[0]:
-    st.warning("Cardboard waste is more")
+    st.warning("Cardboard waste is more in {}".format(city))
   elif max(num) == num[1]:
-    st.warning("Glass waste is more")
+    st.warning("Glass waste is more in {}".format(city))
   elif max(num) == num[2]:
-    st.warning("Metal waste is more")
+    st.warning("Metal waste is more in {}".format(city))
   elif max(num) == num[3]:
-    st.warning("Paper waste is more")
+    st.warning("Paper waste is more in {}".format(city))
   elif max(num) == num[4]:
-    st.warning("Plastic waste is more")
+    st.warning("Plastic waste is more in {}".format(city))
   elif max(num) == num[5]:
-    st.warning("Trash waste is more")
-  else:
-    st.warning("nothing")
+    st.warning("Trash waste is more in {}".format(city))
 
 def show_insights():
   graph()
