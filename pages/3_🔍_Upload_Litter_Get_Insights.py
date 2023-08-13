@@ -7,7 +7,7 @@ import urllib.request
 from utils import *
 import csv
 import pandas as pd
-import matplotlib.pyplot as plt
+
 
 litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 
