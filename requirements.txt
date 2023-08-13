@@ -4,3 +4,4 @@ keras
 pandas
 numpy
 Pillow
+streamlit-extras
