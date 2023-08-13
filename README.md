@@ -33,10 +33,10 @@ We saw the success story of [KabadiWallah Connect](https://www.kabadiwallaconnec
 >Hence, to enable this why not make it local and available in India?
 
 ## Outcome
-Our project aims at helping people make data informed life choices that are sustainable and also simplifies life of level 0 waste pickers and helps them in segregating waste using ML model. Our initial brainstorming resulted in creation of [LitterLens](https://litter-insight-and-segregation-eptbtokgzyygokv88wzfpz.streamlit.app/) which is powered by streamlit, tensorflow, pandas, numpy, pytorch, html, javascript, SheetDB, Google sheets, TailwindCSS and Matplotlib. Besides it is also powered by hardwork of our fellow contributors- [Dileep]() [Vaishali]() [Kesav]() and [Maruthi Karthik Singh]()  
+Our project aims at helping people make data informed life choices that are sustainable and also simplifies life of level 0 waste pickers and helps them in segregating waste using ML model. Our initial brainstorming resulted in creation of [LitterLens](https://litterlens.streamlit.app/) which is powered by Streamlit, Tensorflow, Pandas, Numpy, Pytorch, HTML, Javascript, SheetDB, Google sheets, TailwindCSS and Matplotlib. Besides it is also powered by hardwork of our fellow contributors- [Dileep](https://github.com/Dileep2608) [Vaishali](https://github.com/arcVaishali) [Kesav](https://github.com/kesavn-13/) and [Maruthi Karthik Singh](https://github.com/MaruthiSingh)  
 
 ## View Demo 
-[LitterLens](https://litter-insight-and-segregation-eptbtokgzyygokv88wzfpz.streamlit.app/) 
+[LitterLens](https://litterlens.streamlit.app/) 
 
 ## What it does 
 - It allows user to input the image of litter in two ways- from the local device and from the image URL. It take the image as input and uses the Machine Learning Model which we have created using Tensorflow, Keras, Python and other ML libraries to classify the image into-
