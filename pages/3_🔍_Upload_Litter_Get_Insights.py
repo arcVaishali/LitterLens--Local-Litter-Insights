@@ -20,7 +20,28 @@ def graph():
   st.bar_chart(df.set_index('Litter'))
 
 def suggestions():
-  pass
+  count = []
+  with open("database/litter_count.csv", mode='r') as file:
+    litter_data = csv.reader(file)
+    for lines in litter_data:
+      count.append(lines[0])
+
+  num = [int(i) for i in count]
+
+  if max(num) == num[0]:
+    st.warning("Cardboard waste is more")
+  elif max(num) == num[1]:
+    st.warning("Glass waste is more")
+  elif max(num) == num[2]:
+    st.warning("Metal waste is more")
+  elif max(num) == num[3]:
+    st.warning("Paper waste is more")
+  elif max(num) == num[4]:
+    st.warning("Plastic waste is more")
+  elif max(num) == num[5]:
+    st.warning("Trash waste is more")
+  else:
+    st.warning("nothing")
 
 def show_insights():
   graph()
