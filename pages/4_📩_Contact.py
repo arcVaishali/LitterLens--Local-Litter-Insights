@@ -10,7 +10,7 @@ st.set_page_config(
 components.html(
     """
     <script src="https://cdn.tailwindcss.com"></script>
-    <h2 class="text-6xl dark:text-white text-black font-medium mb-5">Contact</h2>
+    <h2 class="lg:text-6xl md:text-3xl sm:text-2xl dark:text-white text-black font-medium mb-5">Contact</h2>
     <form class="flex flex-col" method="post" id="sheetdb-form" action="https://sheetdb.io/api/v1/9j2teqwz3t3d9?sheet=contact">
         <div class="my-4">
             <h2 class="text-xl font-bold mb-2 dark:text-white text-black">Name</h2>

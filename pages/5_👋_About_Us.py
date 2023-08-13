@@ -10,7 +10,7 @@ st.set_page_config(
 components.html(
     """
     <script src="https://cdn.tailwindcss.com"></script>
-      <h2 class="text-6xl dark:text-white text-black font-bold mb-12">About Us</h2>
+      <h2 class="lg:text-6xl md:text-3xl sm:text-2xl dark:text-white text-black font-bold mb-12">About Us</h2>
       <div class="flex w-full flex-col items-center">
         <h1 class="text-5xl font-semibold underline underline-offset-8 mb-12 dark:text-white text-black decoration-neutral-500">The Team</h1>
         <div class="flex flex-row flex-wrap justify-center gap-8">
