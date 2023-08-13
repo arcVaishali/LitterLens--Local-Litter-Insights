@@ -2,6 +2,6 @@ streamlit
 tensorflow
 keras
 numpy
-# PIL
-# urllib
+PIL
+urllib
 
