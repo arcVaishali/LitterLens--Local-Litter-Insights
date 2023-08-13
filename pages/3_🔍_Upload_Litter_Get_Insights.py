@@ -2,8 +2,6 @@ import time
 import streamlit as st
 import numpy as np
 import pandas as pd
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 from PIL import Image
 import urllib.request
 from utils import *
