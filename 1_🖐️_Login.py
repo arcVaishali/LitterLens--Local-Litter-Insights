@@ -1,6 +1,5 @@
 import streamlit as st
 import streamlit.components.v1 as components
-
 from streamlit_extras.app_logo import add_logo
 
 
@@ -8,6 +7,7 @@ st.set_page_config(
     page_title="Login",
     page_icon=":raised_hand_with_fingers_splayed:",
 )
+
 add_logo("assests\logo.png", height=180)
 
 
