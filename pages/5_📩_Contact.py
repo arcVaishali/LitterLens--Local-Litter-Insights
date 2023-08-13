@@ -13,15 +13,15 @@ components.html(
     <form class="flex flex-col" method="post" id="sheetdb-form" action="https://sheetdb.io/api/v1/9j2teqwz3t3d9?sheet=contact">
         <div class="my-4">
             <h2 class="text-xl font-bold mb-2 dark:text-white text-black">Name</h2>
-            <input type="text" class="h-14 w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[name]">
+            <input required type="text" class="h-14 w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[name]">
         </div>
         <div class="my-4">
             <h2 class="text-xl font-bold mb-2 dark:text-white text-black">Email</h2>
-            <input type="email" class="h-14 w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[email]">
+            <input required type="email" class="h-14 w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[email]">
         </div>
         <div class="my-4">
             <h2 class="text-xl font-bold mb-2 dark:text-white text-black">Issue</h2>
-            <textarea class="w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[issue]" cols="30" rows="10"></textarea>
+            <textarea required class="w-full text-white bg-black dark:border-white border-slate-500 border-4 focus:outline-none p-4 rounded-lg" name="data[issue]" cols="30" rows="10"></textarea>
         </div>
         <button class="text-xl font-bold text-black p-4 bg-lime-400 rounded-full w-fit" type="submit">Submit</button>
     </form>
