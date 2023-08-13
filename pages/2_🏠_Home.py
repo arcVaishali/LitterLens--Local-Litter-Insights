@@ -20,13 +20,13 @@ st.markdown("Our project :green[Litter Insight and Segregation], as the name sug
 st.markdown(" ")
 # We can add images here
 
-st.markdown("In addition to contributing in creating a dataset and making analysis, our project also aims to make lives of Level 0 Waster Pickers (called Kabadiwallahs in India) less riskier, simple and make their livelihoods better by creating a ML model that classifies waste into recyclable and non-recylable litter by feeding it image of waste. This ML model when powered by an IoT based dustbin can help segregation of waste even faster and easier")
+st.markdown("In addition to contributing in creating a dataset and making analysis, our project also aims to make lives of Level 0 Waster Pickers (called Kabadiwallahs in India) less riskier, simple and make their livelihoods better by creating a ML model that classifies waste into recyclable and non-recylable litter by feeding it image of waste. This ML model when powered by an IoT based dustbin can help segregation of waste even faster and easier.Even local people can use this website to segregate waste into recyclable and non-recyclable waste bins.")
 # We can add images here
 
 
 # =========FEATURES========
 st.header("Features")
-st.markdown("- Provides portal for Litter Image Uploading and Analysis")
+st.markdown("- Provides portal for Litter Image Uploading and Analysis for litter distribution in their locality.")
 st.markdown("- It aims at providing relevant results")
 st.markdown("- Helps segregating wastes less riskier")
 
@@ -76,24 +76,4 @@ st.header("Outcome")
 st.markdown("Our project aims at helping people make data informed life choices that are sustainable and also simplifies life of level 0 waste pickers")
 
 
-# from streamlit_option_menu import option_menu
 
-
-# with st.sidebar:
-#     selected_sidebar = option_menu(
-#         menu_title = None,
-#         options=["Home page", "Upload Litter, Get Insights", "Waste Segregation Tool","Contact"],
-#         icons=["house","upload","info","envelope"],
-#         default_index=0,
-
-#     )
-
-# if selected_sidebar == "Home page":
-#     st.title("Litter free World")
-# elif selected_sidebar == "Upload Litter, Get Insights":
-#     st.title("Upload Litter Data and Read Litter Data")
-# elif selected_sidebar == "Waste Segregation Tool":
-#     st.title("Upload image of Litter our model will predict its ")
-#     st.markdown("- Name ")
-#     st.markdown("- Type ")
-#     st.markdown("- other data ")
