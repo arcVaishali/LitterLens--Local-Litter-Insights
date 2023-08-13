@@ -21,7 +21,6 @@ components.html(
             class="h-14 w-full border-black border-2 p-4 rounded-lg"
             id="name"
             name="data[name]"
-            placeholder="*Enter Your Name*"
             type="text"
             required
           />
@@ -34,7 +33,6 @@ components.html(
             class="h-14 w-full border-black border-2 p-4 rounded-lg"
             id="location"
             name="data[loacation]"
-            placeholder="*Enter Your Location*"
             type="text"
             required
           />
@@ -47,7 +45,6 @@ components.html(
             class="h-14 w-full border-black border-2 p-4 rounded-lg"
             id="locality"
             name="data[locality]"
-            placeholder="*Enter Your Locality*"
             type="text"
             required
           />
