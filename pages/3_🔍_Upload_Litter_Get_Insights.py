@@ -8,8 +8,30 @@ from utils import *
 import csv
 import pandas as pd
 
+def graph():
+  count = []
+  with open("database/litter_count.csv", mode='r') as file:
+    litter_data = csv.reader(file)
+    for lines in litter_data:
+      count.append(lines[0])
+  data = {'Litter':litter_type, 'Litter count':[int(i) for i in count]}
+  df = pd.DataFrame(data)
+  st.subheader("Live trash count graph:")
+  st.bar_chart(df.set_index('Litter'))
+
+def suggestions():
+  pass
+
+def show_insights():
+  graph()
+  suggestions()
+
+
+
 
 litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+recylable = ['paper', 'cardboard', 'metal', 'plastic', 'glass']
+biodegradable = ['trash']
 
 def litter_count_update(litter):
   litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
@@ -27,6 +49,7 @@ def litter_count_update(litter):
     writer = csv.writer(file)
     for i in count:
       writer.writerow([i])
+
 
 st.set_page_config(
      page_title="Upload and Read",
@@ -86,37 +109,16 @@ try:
         prediction = model.predict(img[np.newaxis, ...])
         litter = labels[np.argmax(prediction[0], axis=-1)]
         st.info('Hey! The uploaded image has been classified as " {} waste " '.format(litter))   
+        if litter in recylable:
+          st.info("{} is RECYLABLE WASTE".format(litter))
+        elif litter in biodegradable:
+          st.info("{} is BIODEGRADABLE WASTE".format(litter))
         litter_count_update(litter)
 except Exception as e:
   st.info("Our model will begin it's work once you feed it the input😁⬆️")
   pass
 
-
-
-st.markdown("### For Your Reference")
-dic = {"Recylable":["paper","cardboard","metal","plastic","glass"],"Biodegradable":["trash"," " , " " , " ", " "]}
-df = pd.DataFrame(dic)
-st.write(df)
-
-
-def graph():
-  count = []
-  with open("database/litter_count.csv", mode='r') as file:
-    litter_data = csv.reader(file)
-    for lines in litter_data:
-      count.append(lines[0])
-  data = {'Litter':litter_type, 'Litter count':[int(i) for i in count]}
-  df = pd.DataFrame(data)
-  st.subheader("Live trash count graph:")
-  st.bar_chart(df.set_index('Litter'))
-
-def suggestions():
-  pass
-def show_insights():
-  graph()
-  suggestions()
 x = st.button("Get Insights", use_container_width=True)
-
 if x:
   show_insights()
 
