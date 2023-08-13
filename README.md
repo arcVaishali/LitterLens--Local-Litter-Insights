@@ -84,7 +84,7 @@ We built our project with love, patience and hardwork using following tools and 
 - We had problems implementing the prediction algorithm via webpage.
 - We had problems connecting Google sheets with our website.
 - We had trouble deploying the app on streamlit cloud.
-But these issue got resolved in time with our hardwork and teamwork. We were successful in collaborating with one another using Discord and were connected throughout the Hackathon. We are grateful to Katie Youth Hacks for giving us the opportunity to collaborate with such resourceful people and also improved our tech skills in streamlit, machine learning and web development.
+Through dedicated teamwork and hard work, we effectively resolved these challenges over time. Our collaboration was facilitated by Discord, ensuring continuous connectivity throughout the Hackathon. We extend our gratitude to Katie Youth Hacks for providing us with an invaluable opportunity to engage with a resourceful community. This experience enhanced our proficiency in streamlit, machine learning, and web development.
 
 ## Accomplishments that we're proud of
 
