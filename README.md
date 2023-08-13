@@ -79,8 +79,12 @@ We built our project with love, patience and hardwork using following tools and 
 - For Deployment -> 
  + Streamlit Cloud
 
-
-## Challenges we ran into
+## Challenges we ran into 
+- We had trouble importing Machine Learning Model into our website.
+- We had problems implementing the prediction algorithm via webpage.
+- We had problems connecting Google sheets with our website.
+- We had trouble deploying the app on streamlit cloud.
+But these issue got resolved in time with our hardwork and teamwork. We were successful in collaborating with one another using Discord and were connected throughout the Hackathon. We are grateful to Katie Youth Hacks for giving us the opportunity to collaborate with such resourceful people and also improved our tech skills in streamlit, machine learning and web development.
 
 ## Accomplishments that we're proud of
 
