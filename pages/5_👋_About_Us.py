@@ -161,7 +161,7 @@ components.html(
               </a>
             </div>
             <div class="flex flex-col items-center">
-              <a href="https://streamlit.io/" target="_blank">
+              <a href="https://sheetdb.io/" target="_blank">
                 <div class="dark:bg-white bg-slate-400 rounded-lg py-3 px-6"> 
                   <img class="h-16 w-16 rounded-lg" src="https://avatars.githubusercontent.com/u/32489070?v=4" alt="">
                 </div>
