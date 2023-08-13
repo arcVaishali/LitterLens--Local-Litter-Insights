@@ -56,8 +56,91 @@ Implement cardboard waste audits to identify areas for reduction and better recy
 5. PRODUCT DESIGN AND PACKAGING GAUIDELINES:
 Work with manufacturers to design products with more eco-friendly packaging that uses less cardboard or easily recyclable materials. """
 
-# glass = """ Controlling glass waste involves implementing strategies to reduce, reuse, and recycle glass materials. Here are measures you can take to control glass waste:"""
-# st.warning(glass)
+glass = """ Controlling glass waste involves implementing strategies to reduce, reuse, and recycle glass materials. Here are measures you can take to control glass waste:
+
+1. Source Reduction:
+Encourage businesses to reduce the use of glass packaging by exploring alternatives like plastic, paper, or metal.
+Promote bulk purchasing to minimize single-use glass containers.
+
+2. Reuse and Repurpose:
+Establish bottle return or deposit systems to encourage the return of glass beverage containers for cleaning and reuse.
+Encourage the reuse of glass jars and bottles for storage, crafts, or DIY projects.
+
+3. Recycling Programs:
+Set up accessible glass recycling collection points in residential areas, public spaces, and businesses.
+Educate the public about the benefits of glass recycling and proper methods for separating and preparing glass for recycling.
+
+4. Glass-to-Glass Recycling:
+Advocate for a closed-loop recycling system where collected glass is processed into new glass products, reducing the need for raw materials.
+
+5. Glass Packaging Design:
+Work with manufacturers to design glass packaging that is lighter, more easily recyclable, or has a higher percentage of recycled content.
+"""
+
+metal = """
+Controlling metal waste involves implementing strategies to reduce, reuse, and recycle metal materials. Here are measures you can take to control metal waste:
+
+1. Source Reduction:
+Encourage businesses to minimize metal packaging and explore alternatives like eco-friendly materials.
+Promote bulk purchasing to reduce single-use metal containers.
+
+2. Reuse and Repurpose:
+Establish metal recycling collection points for scrap metal, encouraging individuals and businesses to bring in old or unused metal items.
+Promote the reuse of metal items by encouraging repair and refurbishment.
+
+3. Recycling Programs:
+Set up accessible metal recycling collection points in residential areas, public spaces, and businesses.
+Educate the public about the importance of metal recycling and proper methods for preparing and disposing of metal waste.
+
+4. Scrap Metal Industry:
+Foster partnerships with local scrap yards and recycling centers to ensure efficient and environmentally responsible metal recycling.
+
+5. Metal-to-Metal Recycling:
+Promote closed-loop recycling where collected metal is processed into new metal products, reducing the need for virgin resources. """
+
+paper = """Controlling paper waste is essential for sustainable resource management. Here are measures you can take to effectively control paper waste:
+
+1. Promote Digitalization:
+Encourage businesses and individuals to transition to digital documents and communications whenever possible.
+Use electronic signatures and online forms to reduce paper consumption.
+
+2. Print Mindfully:
+Encourage double-sided printing to reduce paper usage.
+Set default printer settings to black and white and draft mode for internal documents.
+
+3. Paperless Billing and Statements:
+Advocate for paperless billing options with utility companies and financial institutions.
+Encourage people to opt for electronic statements and invoices.
+
+4. Reuse and Recycle:
+Promote the reuse of paper for note-taking, scrap paper, or packaging material.
+Establish accessible recycling programs to ensure proper disposal of used paper.
+
+5. Sustainable Paper Procurement:
+Encourage businesses to source paper products from sustainably managed forests or consider recycled content.
+Support the use of certified paper (e.g., FSC or PEFC) to ensure responsible forest management."""
+
+trash = """Controlling trash waste is essential for managing environmental impact and resource consumption. Here are measures you can take to effectively control trash waste:
+
+1. Source Reduction:
+Promote buying products with minimal packaging to reduce waste generation.
+Encourage businesses to implement bulk purchasing and avoid over-packaging.
+
+2. Waste Segregation:
+Educate the public about proper waste segregation for recycling, composting, and landfill-bound items.
+Provide clear and accessible bins for different waste streams.
+
+3. Composting Programs:
+Establish or support community composting programs for organic waste like food scraps and yard trimmings.
+Encourage backyard composting for households with garden spaces.
+
+4. Reduce Single-Use Items:
+Advocate for the reduction of single-use plastics, utensils, and packaging.
+Promote the use of reusable alternatives in daily life.
+
+5. Recycling Initiatives:
+Collaborate with local recycling centers to ensure proper collection, processing, and recycling of materials.
+Educate residents about acceptable recycling materials and practices."""
 
 litter_type = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 recylable = ['paper', 'cardboard', 'metal', 'plastic', 'glass']
@@ -90,14 +173,19 @@ def suggestions():
     st.warning(cardboard)
   elif max(num) == num[1]:
     st.warning("Glass waste is more in {}".format(city))
+    st.warning(glass)
   elif max(num) == num[2]:
     st.warning("Metal waste is more in {}".format(city))
+    st.warning(metal)
   elif max(num) == num[3]:
     st.warning("Paper waste is more in {}".format(city))
+    st.warning(paper)
   elif max(num) == num[4]:
     st.warning("Plastic waste is more in {}".format(city))
+    st.warning(plastice)
   elif max(num) == num[5]:
     st.warning("Trash waste is more in {}".format(city))
+    st.warning(trash)
 
 def show_insights():
   graph()
@@ -187,4 +275,3 @@ button_text = "Get insights of {} litter distrubition".format(city)
 x = st.button(button_text, use_container_width=True)
 if x:
   show_insights()
-
