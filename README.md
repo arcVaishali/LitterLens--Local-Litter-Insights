@@ -51,7 +51,7 @@ and then further classifies the litter into as recyclable and biodegradable.
 
 ## How we built it
 We built our project with love, patience and hardwork using following tools and technologies-
-- For machine Learning Model->
+### For machine Learning Model->
  + Tensorflow 
  + Python 
  + Pandas
@@ -61,7 +61,7 @@ We built our project with love, patience and hardwork using following tools and 
  + Pytorch   
  + Jupyter 
  + OS
-- For Front-end of our Website->
+### For Front-end of our Website->
  + streamlit 
  + python
  + pandas
@@ -70,13 +70,13 @@ We built our project with love, patience and hardwork using following tools and 
  + HTML 
  + TailwindCSS 
  +  JavaScript 
-- For backend and Database -> 
+### For backend and Database -> 
  + SheetDB 
  + Google Sheets 
  + Kaggle Dataset (for ML model) 
-- For code hosting -> 
+### For code hosting -> 
  + GitHub 
-- For Deployment -> 
+###  For Deployment -> 
  + Streamlit Cloud
 
 ## Challenges we ran into 
