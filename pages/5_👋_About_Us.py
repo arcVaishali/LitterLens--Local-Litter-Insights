@@ -16,7 +16,7 @@ components.html(
         <div class="flex flex-row flex-wrap justify-center gap-8">
           <div class="bg-black text-white p-6 h-[40rem] w-[32rem] rounded-lg flex flex-col items-center justify-around">
             <img class="h-24 w-24 rounded-full mb-4"
-              src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/Vaishali.png?token=GHSAT0AAAAAAB66LMHJTZUNFI3YNYQFUGAGZGXXAEQ" alt="Vaishali">
+              src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/Vaishali.png" alt="Vaishali">
             <h1 class="text-3xl text-center">Vaishali</h1>
             <p class="text-xl mb-3 ">Front-end developer and UX/UI developer</p>
             <p class="text-2xl">I am a B.Tech Computer Science 2nd year student at GL Bajaj,
@@ -26,16 +26,16 @@ components.html(
 
             <div class="flex flex-row gap-14 my-4">
               <a class="h-14 w-14" target="_blank" href="https://www.linkedin.com/in/vaishali-p-97326221b/">
-                <img src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/linkedIn.png?token=GHSAT0AAAAAAB66LMHIQHEW3YEL5PLHP2EGZGXXJ2Q" alt="">
+                <img src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/linkedIn.png" alt="">
               </a>
               <a class="h-14 w-14" target="_blank" href="https://github.com/arcVaishali/">
-                <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/github.png?token=GHSAT0AAAAAAB66LMHI4CHTGE4N5PFYAAV2ZGXXKVQ" alt="">
+                <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/github.png" alt="">
               </a>
             </div>
           </div>
           <div class="bg-black text-white p-6 h-[42rem] w-[32rem] rounded-lg flex flex-col items-center justify-around">
             <img class="h-24 w-24 rounded-full mb-4"
-              src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/Kesav.jpg?token=GHSAT0AAAAAAB66LMHI5FU7XMVWBIJQW2YAZGXW76Q"
+              src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/Kesav.jpeg"
               alt="Kesav">
             <h1 class="text-3xl text-center">Kesav Nagendra</h1>
             <p class="text-xl mb-3 ">Data Science & Machine Learning</p>
@@ -47,16 +47,16 @@ components.html(
 
               <div class="flex flex-row gap-14 my-4">
               <a class="h-14 w-14" target="_blank" href="https://www.linkedin.com/in/kesav-nagendra-0185021b9/">
-                <img src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/linkedIn.png?token=GHSAT0AAAAAAB66LMHIQHEW3YEL5PLHP2EGZGXXJ2Q" alt="">
+                <img src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/linkedIn.png" alt="">
               </a>
               <a class="h-14 w-14" target="_blank" href="https://github.com/kesavn-13/">
-                <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/github.png?token=GHSAT0AAAAAAB66LMHI4CHTGE4N5PFYAAV2ZGXXKVQ" alt="">
+                <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/github.png" alt="">
               </a>
             </div>
           </div>
           <div class="bg-black text-white p-6 h-[32rem] w-[32rem] rounded-lg flex flex-col items-center justify-around">
             <img class="h-24 w-24 rounded-full mb-4"
-              src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/Maruthi.png?token=GHSAT0AAAAAAB66LMHJKHQ4HXRFEZRLVN5OZGXXASA"
+              src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/Maruthi.png"
               alt="Maruthi">
             <h1 class="text-3xl text-center">Maruthi Karthik Singh</h1>
             <p class="text-xl mb-3 ">Web developer</p>
@@ -64,16 +64,16 @@ components.html(
 
             <div class="flex flex-row gap-14 my-4">
               <a class="h-14 w-14" target="_blank" href="https://www.linkedin.com/in/maruthikarthiksingh/">
-                <img src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/linkedIn.png?token=GHSAT0AAAAAAB66LMHIQHEW3YEL5PLHP2EGZGXXJ2Q" alt="">
+                <img src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/linkedIn.png" alt="">
               </a>
               <a class="h-14 w-14" target="_blank" href="https://github.com/MaruthiSingh/">
-                <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/github.png?token=GHSAT0AAAAAAB66LMHI4CHTGE4N5PFYAAV2ZGXXKVQ" alt="">
+                <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/github.png" alt="">
               </a>
             </div>
           </div>
           <div class="bg-black text-white p-6 h-[42rem] w-[32rem] rounded-lg flex flex-col items-center justify-around">
             <img class="h-24 w-24 rounded-full mb-4"
-              src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/Dileep.jpeg?token=GHSAT0AAAAAAB66LMHJXCR4CBPPOQIQ5VGCZGXWZGQ"
+              src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/Dileep.jpeg"
               alt="Dileep K">
             <h1 class="text-3xl text-center">Dileep K A</h1>
             <p class="text-xl mb-3 ">Web developer</p>
@@ -85,10 +85,10 @@ components.html(
 
             <div class="flex flex-row gap-14 my-4">
               <a class="h-14 w-14" target="_blank" href="https://www.linkedin.com/in/dileep-ka/">
-                <img src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/linkedIn.png?token=GHSAT0AAAAAAB66LMHIQHEW3YEL5PLHP2EGZGXXJ2Q" alt="">
+                <img src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/linkedIn.png" alt="">
               </a>
               <a class="h-14 w-14" target="_blank" href="https://github.com/Dileep2608">
-                <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/Litter-Insight-and-Segregation/master/assests/github.png?token=GHSAT0AAAAAAB66LMHI4CHTGE4N5PFYAAV2ZGXXKVQ" alt="">
+                <img class="dark:bg-white bg-black rounded-full" src="https://raw.githubusercontent.com/arcVaishali/LitterLens--Local-Litter-Insights/master/assests/github.png" alt="">
               </a>
             </div>  
           </div>
