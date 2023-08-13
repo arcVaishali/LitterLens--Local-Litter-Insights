@@ -38,5 +38,23 @@ Our project aims at helping people make data informed life choices that are sust
 ## View Demo 
 [LitterLens](https://litter-insight-and-segregation-eptbtokgzyygokv88wzfpz.streamlit.app/) 
 
+## What it does 
+- It allows user to input the image of litter in two ways- from the local device and from the image URL. It take the image as input and uses the Machine Learning Model which we have created using Tensorflow, Keras, Python and other ML libraries to classify the image into-
+ + paper
+ + trash 
+ + metal
+ + cardboard 
+ + plastic
+ + glass 
+and then further classifies the litter into as recyclable and biodegradable.
+- It also takes the name of user, their location (right now we have only included 4 cities- Hyderabad, Bangalore, Chennai and Delhi) and their locality (this feature is not yet implemented) during login and gives the litter analytics (in the form of bar graph implemented
 
-  
+## How we built it
+
+## Challenges we ran into
+
+## Accomplishments that we're proud of
+
+## What we learned
+
+## What's next for LitterLens-Local Litter Insights
