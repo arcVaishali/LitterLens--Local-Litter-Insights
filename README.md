@@ -50,6 +50,35 @@ and then further classifies the litter into as recyclable and biodegradable.
 - It also takes the name of user, their location (right now we have only included 4 cities- Hyderabad, Bangalore, Chennai and Delhi) and their locality (this feature is not yet implemented) during login and gives the litter analytics (in the form of bar graph between litter type (cardboard, paper, plastic, glass, metal, trash) and the count of litter in their city (right now the count will be city based, later on we will make it more local by adding locality feature). In addition to this our website also gives insights to user on how they can reduce that particular litter production by making sustainable changes in lifestyle.
 
 ## How we built it
+We built our project with love, patience and hardwork using following tools and technologies-
+- For machine Learning Model->
+ + Tensorflow 
+ + Python 
+ + Pandas
+ + Numpy 
+ + Matplotlib 
+ + Keras 
+ + Pytorch   
+ + Jupyter 
+ + OS
+- For Front-end of our Website->
+ + streamlit 
+ + python
+ + pandas
+ + numpy 
+ + matplotlib 
+ + HTML 
+ + TailwindCSS 
+ +  JavaScript 
+- For backend and Database -> 
+ + SheetDB 
+ + Google Sheets 
+ + Kaggle Dataset (for ML model) 
+- For code hosting -> 
+ + GitHub 
+- For Deployment -> 
+ + Streamlit Cloud
+
 
 ## Challenges we ran into
 
