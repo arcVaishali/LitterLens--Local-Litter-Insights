@@ -1,9 +1,42 @@
-# KYH-SustainabilityHack 
+# LitterLens- Local Litter Insights
 
-- install srtreamlit
-- creating model for prediction
-- deploying the model
-- creating the web interface
-- merging the web interface with prediction model
+## About us
+Our project Litter Insight and Segregation, as the name suggests aims to provide a local litter dataset to local administration and policy makers of Resident Welfare Societies and Colonies, based on which they can make policies to make reasonable and achievable local changes in lifestyle of residents. We believe waste collection and management systems should be decentralised, as it is then the waste management becomes sustainable, reduces carbon footprint for transportation and gives local authorities more control.
 
-  ## Project in progress
+In addition to contributing in creating a dataset and making analysis, our project also aims to make lives of Level 0 Waster Pickers (called Kabadiwallahs in India) less riskier, simple and make their livelihoods better by creating a ML model that classifies waste into recyclable and non-recylable litter by feeding it image of waste. This ML model when powered by an IoT based dustbin can help segregation of waste even faster and easier. Even local people can use this website to segregate waste into recyclable and non-recyclable waste bins.
+
+## Features
+- Provides portal for Litter Image Uploading and Analysis for litter distribution in their locality.
+- It aims at providing relevant results.
+- Helps segregating wastes less riskier for waste pickers and easier for normal people.
+
+## Inspiration
+
+### Case Study - 1
+We saw the success story of [KabadiWallah Connect](https://www.kabadiwallaconnect.in/), a Chennai based startup, it provided an IoT based point of pickup i.e. an IoT based dustbin which monitored waste collection and notified nearby Kabadiwallahs when it required disposal. Enabling such a system organised the Recyclable Waste Collection in India which is an informal sector which lags structure and also reduced risks that Kabadiwallahs (level-0 waste picker are called so in India) used to take in their daily life to find and segregate waste, thereby improving their livelihoods.
+
+**Report by** [ITU Hub](https://www.itu.int/hub/2021/07/indian-firms-digital-solution-for-urban-waste-pickers/)
+
+#### Our Remarks
+>What if we could reduce the risks even more that the Kabadiwallahs take to segregating waste by diving knee deep into the waste?
+
+>Why not create an ML model that can segregate waste into as recyclable and non-recyclable based on data provided by IoT enabled dustbins (an image sensor will capture image of waste at the type of disposal)?
+
+### Case Study - 2
+[Litterati](https://www.litterati.org/) is a Litter data collection and analysis app based in US. This app has been used by various lawmakers and school administrations in US to get insights on what type of waste are being mostly generated in their city and school campus respectively and how they can reduce it.
+
+**Report by Science Learn Hub** [Citizen Science Project-Litterati](https://www.sciencelearn.org.nz/resources/2752-litterati)
+
+#### Our Remarks
+>As claimed earlier, waste management systems must be decentralised and locale specific.
+
+>Hence, to enable this why not make it local and available in India?
+
+## Outcome
+Our project aims at helping people make data informed life choices that are sustainable and also simplifies life of level 0 waste pickers and helps them in segregating waste using ML model. Our initial brainstorming resulted in creation of [LitterLens](https://litter-insight-and-segregation-eptbtokgzyygokv88wzfpz.streamlit.app/) which is powered by streamlit, tensorflow, pandas, numpy, pytorch, html, javascript, SheetDB, Google sheets, TailwindCSS and Matplotlib. Besides it is also powered by hardwork of our fellow contributors- [Dileep]() [Vaishali]() [Kesav]() and [Maruthi Karthik Singh]()  
+
+## View Demo 
+[LitterLens](https://litter-insight-and-segregation-eptbtokgzyygokv88wzfpz.streamlit.app/) 
+
+
+  
