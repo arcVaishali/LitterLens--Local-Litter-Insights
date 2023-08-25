@@ -1,4 +1,6 @@
-# LitterLens- Local Litter Insights
+# LitterLens- Local Litter Insights 
+
+### Submission for Katy Youth Hacks 2023 Sustainability Hackathon. View our Devpost story- [Link](https://devpost.com/software/litter-insight-and-segregation)
 
 ## About us
 Our project Litter Insight and Segregation, as the name suggests aims to provide a local litter dataset to local administration and policy makers of Resident Welfare Societies and Colonies, based on which they can make policies to make reasonable and achievable local changes in lifestyle of residents. We believe waste collection and management systems should be decentralised, as it is then the waste management becomes sustainable, reduces carbon footprint for transportation and gives local authorities more control.
